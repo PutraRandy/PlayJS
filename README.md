@@ -1,4 +1,4 @@
-Line Alphat JS
+Line Play JS
 
 # require node >= v8.x.x
 check your nodejs version
@@ -8,8 +8,8 @@ check your nodejs version
 
 How to run ?
 ------
-- `git clone https://github.com/alfathdirk/LineAlphatJS.git`
-- `cd LineAlphatJS && npm install`
+- `git clone https://github.com/Raplysaputra/PlayJS.git`
+- `cd PlayJS && npm install`
 - `npm start`
 
 
@@ -19,6 +19,4 @@ Still work :construction_worker:
 - Implement All 
 - Improve logic
 
-Author
-------
-[@alfathdirk](https://instagram.com/alfathdirk)
+#JANGAN LUPA BAHAGIA#
