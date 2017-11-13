@@ -21,8 +21,8 @@ class LINE extends Command {
     }
 
 
-    get myBot() {
-        const bot = ['u3b257ce1497b8d24ec3708ba3ed79d46','u236b88bf1eac2b90e848a6198152e647','u763977dab29cbd6fa0cbfa9f159b768b'];
+    get myBot() 
+        const bot = ['ua4b5afcedb4cf4c5bda4a4d2f51cc8ac','ua4b5afcedb4cf4c5bda4a4d2f51cc8ac'];
         return bot; 
     }
 
@@ -126,8 +126,8 @@ class LINE extends Command {
         let receiver = messages.to;
         let sender = messages.from;
         
-        this.command('Halo', ['halo juga','ini siapa?']);
-        this.command('kamu siapa', this.getProfile.bind(this));
+        this.command('Halo','Hello','Ping','ping','test','help' , ['Lu Napa tong!!']);
+        this.command('Lu sokap?', this.getProfile.bind(this));
         this.command('.status', `Your Status: ${JSON.stringify(this.stateStatus)}`);
         this.command(`.left ${payload}`, this.leftGroupByName.bind(this));
         this.command('.speed', this.getSpeed.bind(this));
